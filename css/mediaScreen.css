@@ -1,0 +1,727 @@
+@media only screen and (max-width: 600px) {
+
+    /* Home */
+
+    .home {
+        height: 120vh;
+    }
+
+    .bar-containt {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center
+    }
+
+    .links {
+        width: 100%;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .dark-mood {
+        width: fit-content;
+        position: absolute;
+        bottom: 15px;
+        right: 10px;
+    }
+
+    .home-containt {
+        flex-direction: column-reverse;
+        margin-top: 150px;
+    }
+
+    .home-text {
+        width: 100%;
+        align-items: center;
+    }
+
+    .home-img {
+        width: 85%;
+        margin: auto;
+    }
+
+    .btn-container {
+        width: 100%;
+    }
+
+    .home-text .btn2 {
+        width: 200px;
+        height: 60px;
+    }
+
+    /* Our Proffesional Chefs */
+
+    .chefs-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chef {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .waves {
+        bottom: 165px;
+    }
+
+    /*  Our Gallery */
+
+    .gallery-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .album {
+        width: 90%;
+    }
+
+    /* Contact Us */
+
+    .info-container {
+        flex-wrap: wrap;
+    }
+
+    .info-item {
+        width: 100%;
+    }
+
+    .info-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    input[type=text] {
+        width: 100%;
+    }
+
+    input[type=email] {
+        width: 100%;
+    }
+
+    /* footer */
+
+    .footer-containt {
+        flex-direction: column;
+    }
+
+    .footer-media {
+        width: 100%;
+    }
+
+    .footer-Subscribe {
+        width: 100%;
+    }
+
+    .footer-Subscribe input {
+        width: 70%;
+    }
+
+    .footer-Subscribe button {
+        padding: 12px 20px;
+    }
+
+    .footer-contact {
+        width: 100%;
+    }
+
+    /* Dark mood section */
+
+    label {
+        position: fixed;
+        width: fit-content;
+        border-radius: 5px;
+        z-index: 99999;
+        top: 60px;
+        right: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* Home */
+
+    .home {
+        height: 120vh;
+    }
+
+    .bar-containt {
+        width: 95%;
+    }
+
+    .logo {
+        width: 20%;
+        text-align: center
+    }
+
+    .links {
+        width: 70%;
+        justify-content: flex-end;
+        padding: 10px;
+    }
+
+    .dark-mood {
+        width: 5%;
+    }
+
+    .home-containt {
+        flex-direction: column-reverse;
+        margin-top: 90px;
+    }
+
+    .home-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .home-img {
+        width: 75%;
+        margin: 20px auto 0 auto;
+    }
+
+    .btn-container {
+        justify-content: center;
+    }
+
+    .home-text .btn2 {
+        width: 200px;
+        height: 60px;
+    }
+
+    /* Our Proffesional Chefs */
+
+    .chefs-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chef {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .waves {
+        bottom: 145px;
+    }
+
+    /*  Our Gallery */
+
+    .gallery-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .album {
+        width: 90%;
+    }
+
+    /* Contact Us */
+
+    .info-container {
+        flex-wrap: wrap;
+    }
+
+    .info-item {
+        width: 100%;
+    }
+
+    .info-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    input[type=text] {
+        width: 100%;
+    }
+
+    input[type=email] {
+        width: 100%;
+    }
+
+    /* footer */
+
+    .footer-containt {
+        flex-direction: column;
+    }
+
+    .footer-media {
+        width: 100%;
+    }
+
+    .footer-Subscribe {
+        width: 100%;
+    }
+
+    .footer-Subscribe input {
+        width: 70%;
+    }
+
+    .footer-Subscribe button {
+        padding: 12px 20px;
+    }
+
+    .footer-contact {
+        width: 100%;
+    }
+
+    /* Dark mood section */
+
+    label {
+        position: fixed;
+        width: fit-content;
+        border-radius: 5px;
+        z-index: 99999;
+        top: 20px;
+        right: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* Home */
+
+    .home {
+        height: 130vh;
+    }
+
+    .bar-containt {
+        width: 95%;
+    }
+
+    .logo {
+        width: 20%;
+        text-align: center
+    }
+
+    .links {
+        width: 70%;
+        justify-content: flex-end;
+        padding: 10px;
+    }
+
+    .dark-mood {
+        width: 5%;
+    }
+
+    .home-containt {
+        width: 95%;
+        margin-top: 120px;
+
+    }
+
+    .home-text {
+        width: 50%;
+        margin: auto;
+    }
+
+    .home-img {
+        width: 50%;
+        margin: auto;
+    }
+
+    .home-img img {
+        width: 100%;
+    }
+
+    .home-text .btn2 {
+        width: 300px;
+        height: 60px;
+    }
+
+    /* Our Proffesional Chefs */
+
+    .chefs-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .chef {
+        width: 45%;
+        margin-bottom: 50px;
+    }
+
+    .waves {
+        bottom: 185px;
+    }
+
+    /*  Our Gallery */
+
+    .gallery-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .album {
+        width: 33%;
+    }
+
+    /* Contact Us */
+
+    .info-container {
+        flex-wrap: wrap;
+    }
+
+    .info-item {
+        width: 49%;
+    }
+
+    .info-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    input[type=text] {
+        width: 100%;
+    }
+
+    input[type=email] {
+        width: 100%;
+    }
+
+    /* footer */
+
+    .footer-containt {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .footer-containt {
+        flex-direction: row;
+    }
+
+    .footer-media {
+        width: 100%;
+    }
+
+    .footer-Subscribe {
+        width: 100%;
+    }
+
+    .footer-Subscribe input {
+        width: 100%;
+    }
+
+    .footer-Subscribe button {
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .footer-contact {
+        width: 100%;
+    }
+
+    /* Dark mood section */
+
+    label {
+        position: fixed;
+        width: fit-content;
+        border-radius: 5px;
+        z-index: 99999;
+        top: 20px;
+        right: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    /* Home */
+
+    .home {
+        height: 100vh;
+    }
+
+    .bar-containt {
+        width: 90%;
+    }
+
+    .logo {
+        width: calc(100%/3);
+        text-align: start
+    }
+
+    .links {
+        width: calc(100%/3);
+        justify-content: flex-end;
+        padding: 10px;
+    }
+
+    .dark-mood {
+        width: calc(100%/3);
+    }
+
+    .home-containt {
+        width: 90%;
+        flex-direction: row;
+        margin-top: 150px;
+    }
+
+    .home-text {
+        width: 45%;
+        margin: 0;
+        text-align: start;
+    }
+
+    .home-img {
+        width: 45%;
+        margin: 0;
+    }
+
+    .btn-container {
+        justify-content: flex-start;
+    }
+
+    .home-text .btn2 {
+        width: 200px;
+        height: 60px;
+    }
+
+    /* Our Proffesional Chefs */
+
+    .chefs-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .chef {
+        width: 45%;
+        margin-bottom: 50px;
+    }
+
+    .waves {
+        bottom: 165px;
+    }
+
+    /*  Our Gallery */
+
+    .gallery-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .album {
+        width: 33%;
+    }
+
+    /* Contact Us */
+
+    .info-container {
+        flex-wrap: wrap;
+    }
+
+    .info-item {
+        width: 49%;
+    }
+
+    .info-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    input[type=text] {
+        width: 49%;
+    }
+
+    input[type=email] {
+        width: 50%;
+    }
+
+    /* footer */
+
+    .footer-containt {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .footer-containt {
+        flex-direction: row;
+    }
+
+    .footer-media {
+        width: 25%;
+    }
+
+    .footer-Subscribe {
+        width: 45%;
+    }
+
+    .footer-Subscribe input {
+        width: 70%;
+    }
+
+    .footer-Subscribe button {
+        width: 29%;
+        padding: 12px 0px;
+    }
+
+    .footer-contact {
+        width: 25%;
+    }
+
+    /* Dark mood section */
+
+    label {
+        position: fixed;
+        width: fit-content;
+        border-radius: 5px;
+        z-index: 99999;
+        top: 20px;
+        right: 50px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    /* Home */
+
+    .home {
+        height: 100vh;
+    }
+
+    .bar-containt {
+        width: 90%;
+    }
+
+    .logo {
+        width: calc(100%/3);
+        text-align: start
+    }
+
+    .links {
+        width: calc(100%/3);
+        justify-content: flex-end;
+        padding: 10px;
+    }
+
+    .dark-mood {
+        width: calc(100%/3);
+    }
+
+    .home-containt {
+        width: 90%;
+        flex-direction: row;
+        margin-top: 150px;
+    }
+
+    .home-text {
+        width: 40%;
+        margin: 0;
+        text-align: start;
+    }
+
+    .home-img {
+        width: 40%;
+        margin: 0;
+    }
+
+    .btn-container {
+        justify-content: flex-start;
+    }
+
+    .home-text .btn2 {
+        width: 200px;
+        height: 60px;
+    }
+
+    /* Our Proffesional Chefs */
+
+    .chefs-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .chef {
+        width: 30%;
+        margin-bottom: 50px;
+    }
+
+    .waves {
+        bottom: 185px;
+    }
+
+    /*  Our Gallery */
+
+    .gallery-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .album {
+        width: 33%;
+    }
+
+    /* Contact Us */
+
+    .info-container {
+        flex-wrap: wrap;
+    }
+
+    .info-item {
+        width: 49%;
+    }
+
+    .info-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    input[type=text] {
+        width: 49%;
+    }
+
+    input[type=email] {
+        width: 50%;
+    }
+
+    /* footer */
+
+    .footer-containt {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .footer-containt {
+        flex-direction: row;
+    }
+
+    .footer-media {
+        width: 25%;
+    }
+
+    .footer-Subscribe {
+        width: 45%;
+    }
+
+    .footer-Subscribe input {
+        width: 70%;
+    }
+
+    .footer-Subscribe button {
+        width: 29%;
+        padding: 12px 0px;
+    }
+
+    .footer-contact {
+        width: 25%;
+    }
+
+    /* Dark mood section */
+
+    label {
+        position: fixed;
+        width: fit-content;
+        border-radius: 5px;
+        z-index: 99999;
+        top: 20px;
+        right: 100px;
+    }
+}
