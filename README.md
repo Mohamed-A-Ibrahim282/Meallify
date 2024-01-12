@@ -1,4 +1,4 @@
 It is a simple responsive website (Mealify) with dark mood feature 
 using HTML & CSS.
 
-Live demo:  https://mohamed-shahata.github.io/Meallify/
+Live demo:  https://Mohamed-A-Ibrahim282.github.io/Meallify/
